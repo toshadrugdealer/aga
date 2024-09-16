@@ -5,7 +5,7 @@ export interface IUser {
 }
 export async function fetchUsers() {
 	try {
-		const response = await fetch('https://randomuser.me/api/?results=2')
+		const response = await fetch('https://randomuser.me/api/?results=3')
 		if (!response.ok) {
 			throw new Error('Ошибка при загрузке данных')
 		}
