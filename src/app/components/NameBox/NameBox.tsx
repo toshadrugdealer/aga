@@ -69,13 +69,11 @@ export const NameBox = () => {
 						<>
 							{users.map(user => (
 								<div
+									onClick={() => toggleChecked(user.id)}
 									key={user.id}
-									className='w-full flex flex-row items-center h-1  border-2 p-10 gap-2 rounded-2xl shadow-md'
+									className='w-full flex flex-row items-center h-1  border-2 p-10 gap-2 rounded-2xl shadow-md cursor-pointer'
 								>
-									<div
-										onClick={() => toggleChecked(user.id)}
-										className='w-6 h-6 border-2 rounded-full cursor-pointer'
-									>
+									<div className='w-6 h-6 border-2 rounded-full'>
 										{user.isChecked && (
 											<Image src={checkbox} alt='Next.js logo' priority />
 										)}
