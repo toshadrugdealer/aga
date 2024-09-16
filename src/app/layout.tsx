@@ -13,6 +13,12 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
+			<title>VPN</title>
+			<link
+				rel='icon'
+				type='image/svg+xml'
+				href='https://www.pngarts.com/files/1/Globe-PNG-Download-Image.png'
+			/>
 			<body>{children}</body>
 		</html>
 	)
