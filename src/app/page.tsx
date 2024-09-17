@@ -1,7 +1,7 @@
-import { Benefits } from './components/Benefits/Benefits'
-import { Header } from './components/Header/Header'
-import { Main } from './components/Main/Main'
-import { NameBox } from './components/NameBox/NameBox'
+import { Benefits } from '@/components/Benefits/Benefits'
+import { Header } from '@/components/Header/Header'
+import { Main } from '@/components/Main/Main'
+import { NameBox } from '@/components/NameBox/NameBox'
 
 export default function Home() {
 	return (
